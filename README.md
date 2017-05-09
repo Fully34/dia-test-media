@@ -31,7 +31,7 @@ PORT=8080
 
 ### Debugging
 
-A script endpoint is available for starting the node app with node-inspect:
+To run the app with node-inspector:
 
 ```
 npm run debug
