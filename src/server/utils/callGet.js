@@ -11,6 +11,9 @@ const handleErrors = response => {
   return response;
 };
 
+/**
+ * Helper method for making GET HTTP requests via fetch.
+ */
 export default (url, options = {}) => {
   debug(`GET ${url}`);
   return fetch(url, {
