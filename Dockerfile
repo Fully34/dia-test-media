@@ -1,4 +1,5 @@
 FROM node:boron
+LABEL maintainer="Dave Krill"
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
